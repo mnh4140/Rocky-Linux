@@ -16,5 +16,6 @@ CentOS7 차이점
    - ntpdate -> chronyc sources
 
 6. 설정 관련 파일 변경
-   - host.allow / host.deny 파일 사용 안함
+   - tcp_wrappers 모듈 비활성화
+      - host.allow / host.deny 파일 사용 안함
    - 패스워드 복잡도 설정 파일 : /etc/pam.d/system-auth -> /etc/security/pwquality.conf
